@@ -42,18 +42,18 @@ namespace AddressBook
 
             // Create an AddressBook and add some contacts to it
 
-            // Dictionary<string, double> AddressDictionary = new Dictionary<string, double>()
-            // { { "Old Fashioned", 20.30 }, { "Plain Glazed", 1000.00 }, { "Chocolate", 55.45 }
-            // };
+            Dictionary<string, double> AddressDictionary = new Dictionary<string, double>()
+            { { "Old Fashioned", 20.30 }, { "Plain Glazed", 1000.00 }, { "Chocolate", 55.45 }
+            };
 
-            // AddressBook addressBook = new AddressBook();
-            // addressBook.AddContact(bob);
-            // addressBook.AddContact(sue);
-            // addressBook.AddContact(juan);
+            AddressBook addressBook = new AddressBook();
+            addressBook.AddContact(bob);
+            addressBook.AddContact(sue);
+            addressBook.AddContact(juan);
 
-            // // Try to add a contact a second time
-            // addressBook.AddContact(sue);
-            // addressBook.AddContact(bob);
+            // Try to add a contact a second time
+            addressBook.AddContact(sue);
+            addressBook.AddContact(bob);
 
             // // Create a list of emails that match our Contacts
             // List<string> emails = new List<string>()
